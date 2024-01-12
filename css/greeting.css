@@ -1,0 +1,72 @@
+.greeting {
+	margin-bottom: 93px;
+}
+.greeting__container {
+	overflow-y: hidden;
+
+	padding: 40px 50px 0;
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+}
+.greeting__content-left {
+	position: relative;
+}
+.greeting__avatar{
+	border-radius: 12px;
+}
+.greeting__avatar-prop {
+	position: absolute;
+	top: -423px;
+	left: -25px;
+}
+.greeting__content-right {
+	display: flex;
+	flex-direction: column;
+	padding-right: 60px;
+	justify-content: center;
+	gap: 90px;
+}
+.greeting__title {
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 88px;
+	letter-spacing: 3.2px;
+}
+.greeting__underline {
+	position: relative;
+}
+.greeting__line{
+position: absolute;
+top: 0;
+}
+.greeting__bold {
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 88px; /* 110% */
+	letter-spacing: 3.2px;
+}
+.greeting__sn {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.greeting__sn-title {
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 160% */
+}
+.greeting__list {
+	display: flex;
+	gap: 17px;
+}
+
