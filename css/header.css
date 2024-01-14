@@ -22,6 +22,6 @@
 	line-height: 27px;
 }
 
-.header__list:active{
+.header__list-item:active{
 	color: #118DA8;
 }

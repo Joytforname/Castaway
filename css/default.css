@@ -1,6 +1,6 @@
 html {
-	--container:1440px;
-	--padding-container:20px;
+	--container: 1440px;
+	--padding-container: 20px;
 	box-sizing: border-box;
 	overflow-x: hidden;
 	position: relative;
@@ -77,4 +77,9 @@ fieldset {
 	font-weight: 400;
 }
 
-
+.button {
+	flex-shrink: 0;
+	border-radius: 6px;
+	background: #118da8;
+	color: white;
+}

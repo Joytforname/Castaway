@@ -1,0 +1,77 @@
+.subscribe__container {
+	overflow-y: hidden;
+}
+.subscribe__wrap {
+	padding: 100px 50px;
+}
+.subscribe__card {
+	position: relative;
+	display: flex;
+	gap: 227px;
+	padding: 60px;
+	height: 387px;
+	flex-shrink: 0;
+	border-radius: 32px;
+	background: #000;
+}
+
+.subscribe__title-appeal {
+	color: #118da8;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+}
+.subscribe__title-text {
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 79.2px;
+	letter-spacing: 2.88px;
+}
+.subscribe__form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.subscribe__input {
+	width: 522px;
+	height: 82px;
+	flex-shrink: 0;
+	border-radius: 6px;
+	border: 1px solid #191919;
+	background: #191919;
+	padding: 19px 27px;
+	outline: none;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28.8px;
+}
+.subscribe__input::placeholder {
+	color: rgba(255, 255, 255, 0.7);
+	font-family: DM Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28.8px;
+}
+
+.subscribe__button {
+	width: 87px;
+	height: 48px;
+	flex-shrink: 0;
+}
+
+.subscribe__prop {
+	position: absolute;
+	width: 147px;
+	height: 91px;
+	object-fit: contain;
+	top: 170px;
+	left: -38px;
+}
