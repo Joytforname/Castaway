@@ -45,6 +45,7 @@
 
 .greeting__line {
 	position: absolute;
+	bottom: -5px;
 }
 
 .greeting__bold-text {
