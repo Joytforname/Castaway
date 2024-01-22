@@ -1,10 +1,8 @@
-.feedback__wrap {
-	padding: 100px 50px;
-}
+
 .feedback__list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 16px;
+	gap: 15px;
 }
 .feedback-card {
 	display: flex;

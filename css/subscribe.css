@@ -1,13 +1,12 @@
 .subscribe__container {
 	overflow-y: hidden;
-}
-.subscribe__wrap {
-	padding: 100px 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .subscribe__card {
 	position: relative;
 	display: flex;
-	gap: 227px;
+	gap: 239px;
 	padding: 60px;
 	height: 387px;
 	flex-shrink: 0;
@@ -44,7 +43,7 @@
 	border-radius: 6px;
 	border: 1px solid #191919;
 	background: #191919;
-	padding: 19px 27px;
+	padding: 27px 19px;
 	outline: none;
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 24px;
@@ -69,9 +68,8 @@
 
 .subscribe__prop {
 	position: absolute;
-	width: 147px;
-	height: 91px;
 	object-fit: contain;
-	top: 170px;
-	left: -38px;
+	bottom: -28px;
+	left: -37px;
+	
 }

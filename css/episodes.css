@@ -1,6 +1,7 @@
-.episodes__wrap {
-	padding: 100px 50px 160px;
+.episodes__container{
+	padding-bottom: 160px;
 }
+
 .episodes__title-wrap {
 	display: flex;
 	align-items: center;
@@ -15,7 +16,7 @@
 	font-size: 64px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 79.2px; /* 123.75% */
+	line-height: 79.2px;
 	letter-spacing: 2.88px;
 }
 .episodes__title-btn {

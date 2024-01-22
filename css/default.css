@@ -1,6 +1,6 @@
 html {
 	--container: 1440px;
-	--padding-container: 20px;
+	--padding-container: 70px;
 	box-sizing: border-box;
 	overflow-x: hidden;
 	position: relative;
@@ -24,8 +24,7 @@ body {
 
 img,
 svg {
-	max-width: 100%;
-	min-height: 100%;
+	
 	height: auto;
 	display: block;
 }
@@ -68,8 +67,8 @@ fieldset {
 }
 
 .container {
-	max-width: calc(var(--container) + (var(--padding-container) * 2));
-	padding: 0 var(--padding-container);
+	max-width: calc(var(--container));
+	padding: 100px var(--padding-container);
 	margin: 0 auto;
 }
 
